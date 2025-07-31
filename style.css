@@ -1,21 +1,14 @@
 body {
+  font-family: 'Century Gothic', sans-serif;
   margin: 0;
-  font-family: Arial, sans-serif;
-  color: #333;
-}
-
-.container {
-  max-width: 1140px;
-  margin: 0 auto;
-  padding: 20px;
+  padding: 0;
+  background: #fff;
+  color: #222;
 }
 
 header {
-  background: #000;
-  color: #fff;
-}
-
-.header {
+  background: #f3f3f3;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,44 +18,45 @@ header {
   height: 50px;
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-nav ul li a {
-  color: #fff;
+.contacts a {
+  margin-left: 15px;
+  color: #ff5e14;
   text-decoration: none;
 }
 
-.hero {
-  background: url('assets/banner.jpg') center/cover no-repeat;
-  color: #fff;
+.slider {
+  display: flex;
+  overflow-x: auto;
+}
+
+.slider img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.about {
+  padding: 40px;
+  background: #fafafa;
+}
+
+.blocks {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.blocks div {
   text-align: center;
-  padding: 100px 20px;
 }
 
-.section {
-  padding: 60px 20px;
-}
-
-.gray {
-  background: #f9f9f9;
-}
-
-h1, h2 {
-  color: #ff5e14;
-}
-
-.features {
-  list-style: none;
-  padding: 0;
-  line-height: 1.8em;
+.blocks img {
+  width: 100px;
+  height: auto;
 }
 
 footer {
-  background: #000;
+  background: #222;
   color: #fff;
   text-align: center;
   padding: 20px;
