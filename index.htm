@@ -2,72 +2,59 @@
 <html lang="uk">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>EVT — Головна</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
-  <link rel="icon" href="img/favicon.ico" />
+  <script src="main.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-  <header>
-    <div class="logo">
-      <img src="img/logo.png" alt="EVT логотип" />
-    </div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Головна</a></li>
-        <li><a href="terminal.html">Термінал</a></li>
-        <li><a href="services.html">Послуги</a></li>
-        <li><a href="about.html">Про компанію</a></li>
-        <li><a href="team.html">Команда</a></li>
-        <li><a href="gallery.html">Галерея</a></li>
-        <li><a href="vacancies.html">Вакансії</a></li>
-        <li><a href="news.html">Новини</a></li>
-        <li><a href="scheme.html">Схема комплексу</a></li>
-        <li><a href="plan.html">Плани розвитку</a></li>
-        <li><a href="contacts.html">Контакти</a></li>
-      </ul>
-    </nav>
-  </header>
+<header class="header">
+  <div class="logo">
+    <img src="logo.svg" alt="EVT logo" />
+  </div>
+  <nav class="main-nav">
+    <ul>
+      <li><a href="#">ГОЛОВНА</a></li>
+      <li><a href="#">НОВИНИ</a></li>
+      <li><a href="#">ПОСЛУГИ</a></li>
+      <li><a href="#">ПРО КОМПАНІЮ</a></li>
+      <li><a href="#">КОНТАКТИ</a></li>
+    </ul>
+  </nav>
+</header>
 
-  <section class="hero">
-    <div>
-      <h1>Порт «EVT Grain»</h1>
-      <p>Операції з зерновими вантажами з двома власними причалами загальною довжиною 450 метрів</p>
-    </div>
-  </section>
+<section class="slider">
+  <div class="slide"><img src="DJI_0389.jpg" alt="Слайд 1" /></div>
+  <div class="slide"><img src="DJI_0594.jpg" alt="Слайд 2" /></div>
+  <div class="slide"><img src="DJI_0655-1.jpg" alt="Слайд 3" /></div>
+  <div class="slide"><img src="RD2_6973.jpg" alt="Слайд 4" /></div>
+</section>
 
-  <main>
-    <section class="section">
-      <h2>Поточна ситуація</h2>
-      <ul>
-        <li>Авто на терміналі: <strong>45</strong></li>
-        <li>Час очікування: <strong>1 година 20 хв</strong></li>
-        <li>Авто на стоянці: <strong>12</strong></li>
-        <li>Погода в Миколаєві: <strong>+26°C, ясно</strong></li>
-      </ul>
-    </section>
+<section class="four-blocks">
+  <div class="block"><img src="img1-block-main.png" /><p>ПРО КОМПАНІЮ</p></div>
+  <div class="block"><img src="img2-block-main.png" /><p>ЗЕРНОВИЙ ТЕРМІНАЛ</p></div>
+  <div class="block"><img src="img3-block-main.png" /><p>ПОСЛУГИ</p></div>
+  <div class="block"><img src="img4-block-main.png" /><p>КОНТАКТИ</p></div>
+</section>
 
-    <section class="section">
-      <h2>EVT — ефективна логістика в дії</h2>
-      <p>Ми забезпечуємо перевалку зернових і олійних культур у Миколаєві через річковий термінал. Компанія має дві власні причальні стінки загальною довжиною 450 м. Термінал приймає судна типу річка-море вантажопідйомністю до 5000 тонн.</p>
-      <p>EVT Grain — це сучасна перевалочна інфраструктура, конкурентні умови та надійність.</p>
-    </section>
+<section class="advantages">
+  <h2>Наші переваги</h2>
+  <div class="advantages-list">
+    <div><img src="ukraine.png" /><p>Близькість до агрорегіонів</p></div>
+    <div><img src="transport.png" /><p>3 типи транспорту</p></div>
+    <div><img src="oborudovanie.png" /><p>Сучасне обладнання</p></div>
+    <div><img src="speed.png" /><p>Швидкість обробки</p></div>
+    <div><img src="saving.png" /><p>Зберігання зерна</p></div>
+    <div><img src="safe.png" /><p>Бережна перевалка</p></div>
+    <div><img src="territory.png" /><p>Власна інфраструктура</p></div>
+  </div>
+</section>
 
-    <section class="section">
-      <h2>Місцезнаходження</h2>
-      <p>м. Миколаїв, вул. Айвазовського, 23</p>
-      <div>
-        <img src="img/map.jpg" alt="Карта з адресою" style="width:100%; max-width:600px;" />
-      </div>
-    </section>
-  </main>
+<footer class="footer">
+  <p>&copy; EVT, 2025 — Усі права захищено</p>
+</footer>
 
-  <footer>
-    <p>© EVT Grain <span id="year"></span>. Всі права захищено.</p>
-    <p>Email: info@evt.ua</p>
-  </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
