@@ -1,63 +1,84 @@
+/* Загальні стилі */
 body {
-  font-family: 'Century Gothic', sans-serif;
   margin: 0;
-  padding: 0;
-  background: #fff;
-  color: #222;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 header {
-  background: #f3f3f3;
-  padding: 20px;
+  background-color: #003366;
+  color: white;
+  padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.logo {
+.logo img {
   height: 50px;
 }
 
-.contacts a {
-  margin-left: 15px;
-  color: #ff5e14;
-  text-decoration: none;
-}
-
-.slider {
+nav ul {
   display: flex;
-  overflow-x: auto;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.slider img {
-  width: 100%;
-  max-height: 500px;
-  object-fit: cover;
+nav a {
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
 }
 
-.about {
-  padding: 40px;
-  background: #fafafa;
+nav a:hover {
+  text-decoration: underline;
 }
 
-.blocks {
-  display: flex;
-  justify-content: space-around;
-  padding: 40px;
-}
-
-.blocks div {
-  text-align: center;
-}
-
-.blocks img {
-  width: 100px;
-  height: auto;
+main {
+  padding: 2rem;
 }
 
 footer {
-  background: #222;
-  color: #fff;
+  background-color: #003366;
+  color: white;
   text-align: center;
-  padding: 20px;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+
+.hero {
+  background: url('img/banner.jpg') center/cover no-repeat;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  color: white;
+}
+
+.section {
+  margin: 2rem 0;
+}
+
+.section h2 {
+  color: #003366;
+  margin-bottom: 1rem;
+}
+
+.button {
+  background-color: #003366;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 1rem;
 }
