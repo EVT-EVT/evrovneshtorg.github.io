@@ -2,42 +2,72 @@
 <html lang="uk">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>EVT — Головна</title>
   <link rel="stylesheet" href="style.css" />
-  <script src="script.js" defer></script>
-  <link href="https://kit.fontawesome.com/8dc2d5a31d.js" rel="stylesheet">
+  <link rel="icon" href="img/favicon.ico" />
 </head>
 <body>
+
   <header>
-    <img src="logo.svg" alt="EVT Logo" class="logo" />
-    <div class="contacts">
-      <a href="mailto:office@evt.ua"><i class="fas fa-envelope"></i> office@evt.ua</a>
-      <a href="tel:0512719499"><i class="fas fa-mobile-alt"></i></a>
+    <div class="logo">
+      <img src="img/logo.png" alt="EVT логотип" />
     </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="terminal.html">Термінал</a></li>
+        <li><a href="services.html">Послуги</a></li>
+        <li><a href="about.html">Про компанію</a></li>
+        <li><a href="team.html">Команда</a></li>
+        <li><a href="gallery.html">Галерея</a></li>
+        <li><a href="vacancies.html">Вакансії</a></li>
+        <li><a href="news.html">Новини</a></li>
+        <li><a href="scheme.html">Схема комплексу</a></li>
+        <li><a href="plan.html">Плани розвитку</a></li>
+        <li><a href="contacts.html">Контакти</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <section class="slider">
-    <img src="DJI_0389.jpg" alt="Slider 1">
-    <img src="DJI_0594.jpg" alt="Slider 2">
-    <img src="DJI_0655-1.jpg" alt="Slider 3">
-    <img src="RD2_6973.jpg" alt="Slider 4">
+  <section class="hero">
+    <div>
+      <h1>Порт «EVT Grain»</h1>
+      <p>Операції з зерновими вантажами з двома власними причалами загальною довжиною 450 метрів</p>
+    </div>
   </section>
 
-  <section class="about">
-    <h2>Про компанію</h2>
-    <p>EVT – сучасний приватний морський перевантажувальний комплекс...</p>
-  </section>
+  <main>
+    <section class="section">
+      <h2>Поточна ситуація</h2>
+      <ul>
+        <li>Авто на терміналі: <strong>45</strong></li>
+        <li>Час очікування: <strong>1 година 20 хв</strong></li>
+        <li>Авто на стоянці: <strong>12</strong></li>
+        <li>Погода в Миколаєві: <strong>+26°C, ясно</strong></li>
+      </ul>
+    </section>
 
-  <section class="blocks">
-    <div><img src="img1-block-main.png"><p>Про компанію</p></div>
-    <div><img src="img2-block-main.png"><p>Зерновий термінал</p></div>
-    <div><img src="img3-block-main.png"><p>Послуги</p></div>
-    <div><img src="img4-block-main.png"><p>Контакти</p></div>
-  </section>
+    <section class="section">
+      <h2>EVT — ефективна логістика в дії</h2>
+      <p>Ми забезпечуємо перевалку зернових і олійних культур у Миколаєві через річковий термінал. Компанія має дві власні причальні стінки загальною довжиною 450 м. Термінал приймає судна типу річка-море вантажопідйомністю до 5000 тонн.</p>
+      <p>EVT Grain — це сучасна перевалочна інфраструктура, конкурентні умови та надійність.</p>
+    </section>
+
+    <section class="section">
+      <h2>Місцезнаходження</h2>
+      <p>м. Миколаїв, вул. Айвазовського, 23</p>
+      <div>
+        <img src="img/map.jpg" alt="Карта з адресою" style="width:100%; max-width:600px;" />
+      </div>
+    </section>
+  </main>
 
   <footer>
-    <p>© EVT, 2025</p>
+    <p>© EVT Grain <span id="year"></span>. Всі права захищено.</p>
+    <p>Email: info@evt.ua</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
